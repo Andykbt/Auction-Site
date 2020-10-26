@@ -1,0 +1,120 @@
+html {color: white;}
+
+body {
+	font-family: Arial;
+	margin: 0;
+	text-decoration: none;
+	background-color: rgb(18, 18, 18);	
+}
+
+h3 {text-align: center;}
+
+input {
+	position: inherit;
+	width: 200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	padding: 15px 0;
+}
+
+a {
+	padding: 15px;
+	border-radius: 10px;
+
+	color: white;
+  	text-align: center;
+	text-decoration: none;
+
+    -webkit-transition: background-color 1000ms;
+    -ms-transition: background-color 1000ms;
+    transition: background-color 1000ms;
+}
+
+a:hover {
+	color: black;
+	background-color: #018786;
+
+}
+
+input[type=submit] {background-color: #03DAC6; border:none;}
+
+input[type=submit]:focus {
+    outline: none !important;
+}
+
+.header {
+	background-color: rgb(31, 31, 31);
+	width: 100%;
+	z-index: 1;
+}
+
+.header h1 {
+	display: inline-block;
+}
+
+.error {
+	background-color: #CF6679;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.navBlock {
+	position: relative;
+	display:inline-block;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid rgb(100, 100, 100);
+}
+
+.center {
+	background-color: rgb(31, 31, 31);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.makeBid {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: #03DAC6;
+	border: none;
+}
+
+
+#productTable {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	width: 100%;
+	background-color: rgb(31, 31, 31);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#productTable th, td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+tr {
+    -webkit-transition: background-color 500ms;
+    -ms-transition: background-color 500ms;
+    transition: background-color 500ms;
+}
+
+tr:hover {background-color: rgb(50, 50, 50);}
